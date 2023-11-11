@@ -236,6 +236,8 @@
 							</execution>
 						</executions>
 						<configuration>
+							<username>amiyaranjansahoo</username>
+							<password>Gurudev@123</password>
 							<repository>amiyaranjansahoo/${project.name}</repository>
 							<tag>${project.version}</tag>
 							<skipDockerInfo>true</skipDockerInfo>
