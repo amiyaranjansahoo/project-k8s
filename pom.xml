@@ -236,7 +236,7 @@
 							</execution>
 						</executions>
 						<configuration>
-							<repository>stacksimplify/${project.name}</repository>
+							<repository>amiyaranjansahoo/${project.name}</repository>
 							<tag>${project.version}</tag>
 							<skipDockerInfo>true</skipDockerInfo>
 						</configuration>
