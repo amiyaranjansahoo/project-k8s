@@ -13,7 +13,7 @@ pipeline {
 		
 		stage('Docker Build image') {
 			steps {
-				sh "docker build . -t amiyaranjansahoo/dockerimg:v7 "
+				sh 'docker build . -t amiyaranjansahoo/dockerimg:v7'
 			}
 		}
 		
